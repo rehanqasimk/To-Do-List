@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+* {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #65C18C;
+    align-items: center;
+    height: 100vh;
+}
+
+h1 {
+    padding-top: 50px;
+    font-family: fantasy;
+}
+
+p {
+    font-weight: 700;
+}
+
+.inptb {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    /* border: 2px solid red; */
+}
+
+.inptb input {
+    padding: 10px;
+    margin-right: 20px;
+    font-style: italic;
+    font-size: 18px;
+    border-radius: 20px;
+    border: 0;
+    outline: 0;
+}
+
+.inptb input::placeholder {
+    font-style: italic;
+    font-size: 18px;
+}
+
+.inptb button {
+    padding: 10px;
+    border-radius: 10px;
+    border: 0;
+    color: white;
+    font-weight: 900;
+    font-size: 18px;
+}
+
+ul {
+    width: 50%;
+    /* border: 2px solid red; */
+    padding-left: 10%;
+}
+
+ul li {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+    font-size: 18px;
+}
+
+ul button {
+    border-radius: 10px;
+    width: 60px;
+    color: white;
+    background-color: chocolate;
+}
+
+.done {
+    text-decoration: line-through;
+}
+
+.btn {
+    background-color: #2D31FA;
+}
+
+.btnvis {
+    visibility: hidden;
+}
+
+.upbtn {
+    margin-left: 20px;
+    background-color: pink;
+}
+
+.upbtnvis {
+    visibility: hidden;
+}
